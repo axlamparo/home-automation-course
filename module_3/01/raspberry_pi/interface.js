@@ -18,7 +18,7 @@ app.get('/', function (req, res) {
 var rest = require("arest")(app);
 
 // Add device
-rest.addDevice('http','192.168.0.104');
+rest.addDevice('http','192.168.254.101');
 
 // Start server
 app.listen(3000, function () {
